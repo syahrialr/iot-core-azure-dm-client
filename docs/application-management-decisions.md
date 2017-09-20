@@ -39,7 +39,7 @@ Also, to remotely manage the device, one of those application will need to be *A
 #### All Applications on the Device
 
 - The OEM can configure the device to regularly run a scan for store updates.
-  - This is currently not exposed through Azure DM. The OS supports it through the [the Policy/ApplicationManagement/AllowAppStoreAutoUpdate csp](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowappstoreautoupdate).
+  - This is currently not exposed through Azure DM. The OS supports it through the [Policy/ApplicationManagement/AllowAppStoreAutoUpdate](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowappstoreautoupdate) csp.
   - The default is that it is enabled.
 - In a given scan, all found updates will be installed. There is no way to selectively update one application but not the other if both have updates.
 
